@@ -1,5 +1,9 @@
-from model import Database
+"""
+Execute script
+"""
 
+from model import Database
+# sys.path.append('/Users/admin/Developer/Python/Playground/Visual')
 
 config = {
   'user': 'root',

@@ -1,6 +1,9 @@
+"""
+    MODUL FOR CREATING LIST OF DATES. 
+"""
 import datetime
 
-date = datetime.date(year=2020, month=1, day=1)
+date = datetime.date(year=2020, month=1, day=1) #random date, it's necessary more than current date of request
 
 days = []
 delta_day = datetime.timedelta(days=1)
